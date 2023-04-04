@@ -1,0 +1,63 @@
+
+
+.birmingham{
+    margin: 2px 0px;
+    height: 300px;
+}
+
+body {
+    background-color: grey;
+    
+    text-align: center;
+    font-family: 'alkatra';
+    
+}
+
+#statement{
+    text-shadow: 2px 2px 4px white;
+    
+
+}
+
+.to-do{
+    text-align: center;
+    margin-bottom: 2px;
+    
+}
+#activities{
+    margin: 1px 0px;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 5px
+}
+
+.brum-img{
+    margin: 3px 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-image: url("images/brum.webp");
+    background-size: cover;
+}
+
+.to-do-section{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+      
+}
+
+#brum-img-shopping:hover{
+        background-image: url("images/bullring.webp");
+}
+
+#brum-img-nightlife:hover{
+        background-image: url("images/nightlife.webp");
+}
+
+#brum-img-museums:hover{
+        background-image: url("images/museums.webp");
+}
